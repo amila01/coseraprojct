@@ -11,11 +11,12 @@ header{
 body{
 	padding:1%;
 	margin:1%;
-	background-color:#AFEAB7;
+	background-color:white;
 	background-image: -moz-radial-gradient(circle, #D2FBD8, #AFEAB7, #40742E);
 	background-image: -webkit-radial-gradient(circle, #D2FBD8, #AFEAB7, #40742E);
 	background-image: -o-radial-gradient(circle, #D2FBD8, #AFEAB7, #40742E);
 	background-image: radial-gradient(circle, #D2FBD8, #AFEAB7, #40742E);	
+
 }
 
 h1{
@@ -26,7 +27,7 @@ h1{
 }
 
 h2{
-	color:#207317;x
+	color:#000;x
 	font-size:150%;
 }
 
@@ -65,7 +66,7 @@ nav>a{
 }
 
 .active{
-	background-color:#FFFFFF;
+	background-color:#f6f6f6;
 	opacity:1;
 	color:#04C51E;
 }
