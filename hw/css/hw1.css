@@ -1,0 +1,142 @@
+header{
+	background-color:#112244;
+	background-image:url("../images/flywheel.jpg"); 
+	background-repeat:no-repeat;
+	background-size: 100%; 
+	font-size:100%;
+	padding:10px;
+	text-align:center;
+}
+
+body{
+	padding:1%;
+	margin:1%;
+	background-color:#AFEAB7;
+	background-image: -moz-radial-gradient(circle, #D2FBD8, #AFEAB7, #40742E);
+	background-image: -webkit-radial-gradient(circle, #D2FBD8, #AFEAB7, #40742E);
+	background-image: -o-radial-gradient(circle, #D2FBD8, #AFEAB7, #40742E);
+	background-image: radial-gradient(circle, #D2FBD8, #AFEAB7, #40742E);	
+}
+
+h1{
+	text-transform:uppercase;
+	color:#7494EB;
+	font-size:200%;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+h2{
+	color:#207317;x
+	font-size:150%;
+}
+
+nav>a{	
+	display:inline-block;
+	color:#294E2E;
+	background-color:#FFFFFF;
+	width:18%;
+	padding:8px;
+	margin:1%;
+	text-align:center;
+	opacity:0.5;
+	text-decoration:none;
+	border-radius:5px;
+	font-size:120%;
+	font-family:georgia,verdana,courier;
+	font-weight: bold;
+}
+
+.left{
+	float:left;
+	background:#A2B147;
+	width:30%;	
+	height:120vh;
+}
+
+.left img{
+	display:block;
+	width:75%;
+	margin:0 auto;
+	margin-top:10%;
+	margin-bottom:5%;	
+	border-style:solid;
+	border-width:4px;
+	border-color:#4F4610;	
+}
+
+.active{
+	background-color:#FFFFFF;
+	opacity:1;
+	color:#04C51E;
+}
+
+.right{
+	width:65%;
+	display:inline-block;
+	padding:1%;
+	margin:1%;
+	font-size:120%;
+}
+
+.right p{
+	text-align: justify;
+}
+table,td,th{
+	border: 1px solid #D2FBD8;
+	background: #B6C4A1;
+	text-align: center;
+	font-family:  sans-serif,Helvetica, courier; 
+}
+th,td,tr{
+	margin:1%;
+	padding:1%;
+	background: #C7D7A4;
+	opacity:0.8;
+}
+
+th{
+	border-style:solid;
+	border-color:#75A215;
+	border-width:0 0 3px 0;
+	background: #7F8B6D;
+	-webkit-border-radius: 7px 7px 0 0;
+	-moz-border-radius:7px 7px 0 0;
+	border-radius: 7px 7px 0 0;
+	background: -moz-linear-gradient(top, #7F8B6D 0%, #91C521 100%);
+	background: -webkit-linear-gradient(#67F8B6D 0%, #91C521 100%);
+	background: -o-linear-gradient(#7F8B6D 0%, #91C521 100%);
+	background: linear-gradient(#7F8B6D 0%, #91C521 100%);
+	font-family:georgia,courier,verdana;
+	text-shadow: 2px 2px 4px #FFFFFF;
+}
+table{
+	-webkit-border-radius: 7px 7px 0 0;
+	-moz-border-radius:7px 7px 0 0;
+	border-radius: 7px 7px 0 0;
+	background: #D2FBD8;
+	width:85%;
+}
+th:first-child, td:first-child{
+	text-align: left;
+	
+}
+tr:hover{
+	opacity:1;
+	font-size:110%;
+}
+td{
+	color:#0C4718;
+	-webkit-border-radius: 2px;
+	-moz-border-radius:2px;
+	border-radius: 2px;
+}
+a:hover{
+	color:#7494EB;
+	opacity:0.9;
+	background-color:#928888;
+	font-size:200%;
+}
+
+
+
+	
